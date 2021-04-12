@@ -1,0 +1,85 @@
+.player-wrapper {
+    position: relative;
+    padding-top:10.25%; /* 720 / 1280 = 0.5625 */
+  }
+  
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .homePageCard{
+    height:490px;
+    width:300px;
+    border:1px solid #AED6F1 ;
+    transition:.3s;
+    margin: 2rem;
+    box-shadow: 10px;
+  }
+
+
+ 
+  .bodySignsCard{
+
+    margin:2rem;
+    border:1px solid #AED6F1
+
+  }
+
+  .jumbotron h2{
+    margin-top: -20px;
+}
+@media only screen and (max-width:600px) {
+    .jumbotron h2{
+        margin-top:10px
+    }
+}
+/*
+* jubotron animation
+*/
+
+.jumbotron {
+    height: 180px;
+    color: #fff;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
