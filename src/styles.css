@@ -37,6 +37,14 @@
 /*
 * jubotron animation
 */
+.btn,
+.nav-link,
+.jumbotron,
+.nav:hover{
+    border-radius: 0px;
+   
+}
+
 
 .jumbotron {
     height: 180px;
@@ -46,6 +54,7 @@
     -webkit-animation: Gradient 15s ease infinite;
     -moz-animation: Gradient 15s ease infinite;
     animation: Gradient 15s ease infinite;
+   
 }
 
 @-webkit-keyframes Gradient {
