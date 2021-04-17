@@ -115,7 +115,7 @@ const Signin = () => {
     return (
 
         
-            <Layout title='Welcome to Sign in' description='Sign in to get started'>
+            <Layout title='COMP308 Health Clinic Sign in' description='Sign in to get started'>
             {displayError()}
                {SigninForm()}
                
