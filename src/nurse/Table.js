@@ -17,7 +17,7 @@ const Table = ({users}) => {
                     <th >First Name</th>
                     <th >Last Name</th>
                     <th >Email</th>
-                </tr>
+                    </tr>
             </thead>
             <tbody>
              
@@ -30,12 +30,12 @@ const Table = ({users}) => {
                  <td>{user.firstName }</td>
                  <td>{ user.lastName}</td>
                 <td>{ user.email }</td>
-              
-             
+                          
+               
                 </tr>
           )
             }) : <tr><td colSpan="5">Loading...</td></tr>}
-            
+       
          
             </tbody>
          

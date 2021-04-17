@@ -7,7 +7,7 @@ const Home = () => {
     return (
 
              <>
-            <Layout title='Welcome to Home Page'  description='This is COMP 308 Group 4 Project'>
+            <Layout title='COMP308 Health Clinic'  description='Welcome to COMP308 Health Clinic'>
 
             </Layout>
         
