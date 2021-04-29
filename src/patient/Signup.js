@@ -60,24 +60,24 @@ const SignupForm=()=> (
         <form>
            
             <div className="mb-3">
-                <label  className="form-label">Frist Name</label>
+                <label  className="form-label text-muted">First Name</label>
                 <input onChange={handleChange('firstName')} type="text" className="form-control" id="fname" value={firstName}/>
             </div>
 
             <div className="mb-3">
-                <label  className="form-label">Last Name</label>
+                <label  className="form-label text-muted">Last Name</label>
                 <input onChange={handleChange('lastName')}type="text" className="form-control" id="lName" value={lastName}/>
             </div>
 
             <div className="mb-3">
-                <label for="email" className="form-label">
+                <label for="email" className="form-label text-muted">
                     Email address
                 </label>
                 <input  onChange={handleChange('email')} type="email" className="form-control" id="email" value={email}/>
             </div>
 
             <div className="mb-3">
-                <label for="exampleInputPassword1" className="form-label">Password</label>
+                <label className="form-label text-muted">Password</label>
                 <input onChange={handleChange('password')}type="password" className="form-control" id="password"  value={password}/>
             </div>
         
